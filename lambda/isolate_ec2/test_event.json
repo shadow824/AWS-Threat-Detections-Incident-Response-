@@ -1,0 +1,14 @@
+{
+  "detail-type": "GuardDuty Finding",
+  "source": "aws.guardduty",
+  "detail": {
+    "type": "UnauthorizedAccess:EC2/SSHBruteForce",
+    "severity": 8,
+    "resource": {
+      "resourceType": "Instance",
+      "instanceDetails": {
+        "instanceId": "i-0123456789abcdef0"
+      }
+    }
+  }
+}
